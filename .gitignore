@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# ChromaDB / Vector Store Data
+data/vector_store/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LangChain / LangGraph cache
+.langchain.db
+.langchain_cache/
